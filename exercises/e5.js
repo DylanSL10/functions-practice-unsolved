@@ -11,7 +11,14 @@
  * Example2: getDiffTwentySeven(37) => 20
  */
 
-// Your code goes here...
+function getDiffTwentySeven(num) {
+  const diff = Math.abs(num - 27); 
+  if (num > 27) {
+      return 2 * diff; 
+  } else {
+      return diff; 
+  }
+}
 
 
 
@@ -23,7 +30,15 @@
  * Example2: sumOfTwoIntegers(12, 12) => 72
  */
 
-// Your code goes here
+function sumOfTwoIntegers(num1, num2) {
+  const sum = num1 + num2; 
+  if (num1 === num2) {
+      return 3 * sum;
+  } else {
+      return sum;
+  }
+}
+
 
 
 
@@ -37,7 +52,13 @@
  * Example3: isOneOfThemOrTheirSumIsFourty(23, 16) => false
  */
 
-// Your code goes here...
+function isOneOfThemOrTheirSumIsFourty(num1, num2) {
+  if (num1 === 40 || num2 === 40 || num1 + num2 === 40) {
+      return true; 
+  } else {
+      return false; 
+  }
+}
 
 
 
