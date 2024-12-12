@@ -14,7 +14,7 @@
 */
 
 function logMessage() {
-  console.log("Hello, World!");
+  console.log("Hell!");
 }
 
 
